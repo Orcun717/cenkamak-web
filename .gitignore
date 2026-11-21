@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+*.log
+TUBITAK_2209A_Arastirma_Onerisi_Formu.docx
+BASLAT.bat
+scripts/
