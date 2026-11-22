@@ -81,12 +81,12 @@ export const PRODUCTS = [
       tr: "2.000 – 3.000 kg (Genişliğe Göre)",
       en: "2,000 – 3,000 kg (Span Dependent)"
     },
-    image: "/catalog/product-twin-platform.jpg",
-    secondaryImage: "/catalog/project-twin-upward.jpg",
+    image: "catalog/product-twin-platform.jpg",
+    secondaryImage: "catalog/project-twin-upward.jpg",
     gallery: [
-      "/catalog/product-twin-platform.jpg",
-      "/catalog/project-twin-upward.jpg",
-      "/catalog/project-twin-skyscraper.jpg"
+      "catalog/product-twin-platform.jpg",
+      "catalog/project-twin-upward.jpg",
+      "catalog/project-twin-skyscraper.jpg"
     ],
     summary: {
       tr: "Yeni inşaat projelerinde ve mevcut binaların bakım, onarım, cam, alüminyum, granit kaplama, mantolama, boyama ve sıvama işlerinde 30 metre uzunluğa ve 150m+ yüksekliğe ulaşan çift kolonlu cephe platformu.",
@@ -137,12 +137,12 @@ export const PRODUCTS = [
       tr: "1.000 – 1.500 kg",
       en: "1,000 – 1,500 kg"
     },
-    image: "/catalog/product-single-platform-1.jpg",
-    secondaryImage: "/catalog/product-single-platform-2.jpg",
+    image: "catalog/product-single-platform-1.jpg",
+    secondaryImage: "catalog/product-single-platform-2.jpg",
     gallery: [
-      "/catalog/product-single-platform-1.jpg",
-      "/catalog/product-single-platform-2.jpg",
-      "/catalog/part-chassis-rollers.jpg"
+      "catalog/product-single-platform-1.jpg",
+      "catalog/product-single-platform-2.jpg",
+      "catalog/part-chassis-rollers.jpg"
     ],
     summary: {
       tr: "Dar cepheler, apartman blokları ve hızlı kurulum gerektiren şantiyeler için 10 metre genişliğe ve 150 metre yüksekliğe kadar tek kolon üzerinde maksimum verimlilik sağlayan dış cephe platformu.",
@@ -190,12 +190,12 @@ export const PRODUCTS = [
       tr: "2.000 – 2.500 kg (Çift Kolon Köşe)",
       en: "2,000 – 2,500 kg (Twin Corner)"
     },
-    image: "/catalog/product-corner-platform-1.jpg",
-    secondaryImage: "/catalog/product-corner-platform-2.jpg",
+    image: "catalog/product-corner-platform-1.jpg",
+    secondaryImage: "catalog/product-corner-platform-2.jpg",
     gallery: [
-      "/catalog/product-corner-platform-1.jpg",
-      "/catalog/product-corner-platform-2.jpg",
-      "/catalog/project-residential-1.jpg"
+      "catalog/product-corner-platform-1.jpg",
+      "catalog/product-corner-platform-2.jpg",
+      "catalog/project-residential-1.jpg"
     ],
     summary: {
       tr: "Girintili, çıkıntılı ve L/U tipi açılı mimari cepheler için özel olarak geliştirilen, bina köşelerini tek seferde saran 21 metre toplam genişliğe sahip çift kolonlu köşe platform sistemi.",
@@ -231,7 +231,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Dikey Mast Kare (St52 Çelik)", en: "Square Vertical Mast (St52 Steel)" },
     dimensions: "50x50x150 cm (525x525x1500 mm)",
     weight: "74 kg",
-    image: "/catalog/comp-dikey-mast-kare.jpg",
+    image: "catalog/comp-dikey-mast-kare.jpg",
     desc: {
       tr: "Kare taban üzerinde yuvarlak St52 profilden imal edilen, kremayer dişlisi cıvatalı, korozyona ve dış etkenlere tam dayanıklı dikey çelik kolon.",
       en: "Manufactured from St52 tubular profiles on a square base with bolted rack gear and high-durability corrosion protection."
@@ -244,7 +244,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Üçgen Mast & Platform Şase Kafesi", en: "Triangular Mast & Platform Truss Section" },
     dimensions: "150x130x850 mm (Modül: 1500x1360 mm)",
     weight: "75 kg",
-    image: "/catalog/comp-ucgen-mast.jpg",
+    image: "catalog/comp-ucgen-mast.jpg",
     desc: {
       tr: "Dış cephe platformlarında 30 metreye kadar esnemeden yatay köprü kurulumu sağlayan yüksek mukavemetli üçgen şase modülü.",
       en: "High-rigidity triangular bridge truss module enabling up to 30m horizontal platform spans without deflection."
@@ -257,7 +257,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Yarım Boy Son Kolon (Emniyet Mastı)", en: "Half-Length Top Safety Mast" },
     dimensions: "50x50x75 cm (Dişlisiz Üst Sonlandırıcı)",
     weight: "38 kg",
-    image: "/catalog/comp-emniyet-masti.jpg",
+    image: "catalog/comp-emniyet-masti.jpg",
     desc: {
       tr: "En üst kolonda yer alan kremayer dişlisiz kırmızı ikaz boyalı emniyet mastı; kolon bitim dedektörü ile birlikte platformun kolondan çıkmasını %100 önler.",
       en: "Safety-red top terminator mast without rack teeth; works with the column-end detector to physically and electronically prevent over-travel."
@@ -270,7 +270,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Redüktör + Paraşüt Fren Mekanizması", en: "Gearbox + Parachute Brake Unit" },
     dimensions: "1:16 Hız Oranı | Santrifüj Emniyet Frenli",
     weight: "Ağır Hizmet Tipi",
-    image: "/catalog/comp-reduktor-parasut.jpg",
+    image: "catalog/comp-reduktor-parasut.jpg",
     desc: {
       tr: "Kendinden elektromanyetik frenli motor redüktör grubu ve aşırı hızlanmada otomatik kilitlenen santrifüj paraşüt fren ünitesi.",
       en: "Self-braking electromagnetic geared motor integrated with a centrifugal overspeed parachute brake mechanism."
@@ -283,7 +283,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Platform Ana Taşıyıcı Ünite & Şase", en: "Main Drive Unit & Climbing Chassis" },
     dimensions: "Çift Motorlu Kremayer-Pinyon Tahrik",
     weight: "Komple Ünite",
-    image: "/catalog/comp-ana-unite.jpg",
+    image: "catalog/comp-ana-unite.jpg",
     desc: {
       tr: "Üzerinde çift motor, otomatik dengeleme sistemi, kılavuz makaralar ve elektrik kumanda panosunu barındıran ana tırmanma ünitesi.",
       en: "Complete climbing drive unit housing dual motors, automatic leveling sensors, guide rollers, and integrated control board."
@@ -296,7 +296,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Akıllı PLC Kumanda ve Dengeleme Paneli", en: "Smart PLC Control & Leveling Panel" },
     dimensions: "380V 50Hz | IP65 Endüstriyel Pano",
     weight: "Otomatik Senkronizasyon",
-    image: "/catalog/comp-kumanda-paneli.jpg",
+    image: "catalog/comp-kumanda-paneli.jpg",
     desc: {
       tr: "Faz koruma, aşırı yük kontrolü, otomatik platform dengeleme, sesli ikaz ve acil stop sistemlerini yöneten endüstriyel kumanda panosu.",
       en: "Industrial control panel managing phase protection, overload cutoff, automatic leveling, audible alarm, and emergency stop."
@@ -309,7 +309,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Kaymaz Platform Zemin & Uzatma Sacı", en: "Non-Slip Steel Deck & Extension Plate" },
     dimensions: "150x85.5 cm Ana Sac | 30x70 cm Uzatma Sacı",
     weight: "Kabartmalı Kaymaz Yüzey",
-    image: "/catalog/comp-zemin-saci.jpg",
+    image: "catalog/comp-zemin-saci.jpg",
     desc: {
       tr: "Yağışlı ve zorlu şantiye koşullarında iş güvenliğini maksimize eden zımbalı/kabartmalı çelik kaymaz yürüme zemini.",
       en: "Punched embossed steel flooring providing superior slip resistance in wet and dusty construction site conditions."
@@ -322,7 +322,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Çevre Güvenlik Korkuluğu & Muhafaza", en: "Perimeter Safety Guardrail & Barrier" },
     dimensions: "150x64 cm Muhafaza | 120x150 cm Korkuluk",
     weight: "Elektrostatik Fırın Boyalı",
-    image: "/catalog/comp-muhafaza-korkulugu.jpg",
+    image: "catalog/comp-muhafaza-korkulugu.jpg",
     desc: {
       tr: "Emniyet mandallı platform giriş kapısı ve yüksek mukavemetli çelik tel örgü çevre korkulukları. Kapı açıkken hareketi otomatik keser.",
       en: "Interlocked safety access gate and heavy-duty mesh perimeter guardrails. Automatically prevents motion when any gate is open."
@@ -335,7 +335,7 @@ export const COMPONENTS_GALLERY = [
     title: { tr: "Ankraj Bağlantı Kolu & Emniyet Pimleri", en: "Anchorage Tie Arm & Safety Locking Pins" },
     dimensions: "6m Aralık | 900mm - 1800mm Uzatma Profili",
     weight: "Yüksek Kesme Mukavemetli",
-    image: "/catalog/comp-baglanti-kolu.jpg",
+    image: "catalog/comp-baglanti-kolu.jpg",
     desc: {
       tr: "İstenilen cephe mesafelerinde kolay ayarlama imkanı sunan teleskopik ankraj kolları, uzatma profilleri ve R-kopilyalı çelik bağlantı pimleri.",
       en: "Telescopic wall tie arms, extension profiles, and R-clip high-shear steel locking pins for rapid facade adjustment."
@@ -417,7 +417,7 @@ export const REFERENCE_PROJECTS = [
     category: "curved",
     height: "185 m",
     system: "Çift Kolonlu Özel Eğimli Platform",
-    image: "/catalog/project-curved-tower-1.jpg",
+    image: "catalog/project-curved-tower-1.jpg",
     span: "tall"
   },
   {
@@ -426,7 +426,7 @@ export const REFERENCE_PROJECTS = [
     category: "skyscraper",
     height: "160 m",
     system: "Çift Kolonlu Dış Cephe Platformu",
-    image: "/catalog/project-glass-skyscraper-1.jpg",
+    image: "catalog/project-glass-skyscraper-1.jpg",
     span: "normal"
   },
   {
@@ -435,7 +435,7 @@ export const REFERENCE_PROJECTS = [
     category: "curved",
     height: "140 m",
     system: "Özel Kavisli Mast Ankraj Sistemi",
-    image: "/catalog/project-curved-mast.jpg",
+    image: "catalog/project-curved-mast.jpg",
     span: "normal"
   },
   {
@@ -444,7 +444,7 @@ export const REFERENCE_PROJECTS = [
     category: "skyscraper",
     height: "150 m",
     system: "Çift Kolonlu Platform (30m)",
-    image: "/catalog/project-twin-skyscraper.jpg",
+    image: "catalog/project-twin-skyscraper.jpg",
     span: "wide"
   },
   {
@@ -453,7 +453,7 @@ export const REFERENCE_PROJECTS = [
     category: "corner",
     height: "120 m",
     system: "CK 2000 Çift Köşe (21m)",
-    image: "/catalog/product-corner-platform-1.jpg",
+    image: "catalog/product-corner-platform-1.jpg",
     span: "tall"
   },
   {
@@ -462,7 +462,7 @@ export const REFERENCE_PROJECTS = [
     category: "curved",
     height: "165 m",
     system: "Çoklu Çift Kolonlu Platform",
-    image: "/catalog/project-curved-tower-2.jpg",
+    image: "catalog/project-curved-tower-2.jpg",
     span: "normal"
   },
   {
@@ -471,7 +471,7 @@ export const REFERENCE_PROJECTS = [
     category: "skyscraper",
     height: "135 m",
     system: "Çift Kolonlu Dış Cephe Platformu",
-    image: "/catalog/project-facade-cladding.jpg",
+    image: "catalog/project-facade-cladding.jpg",
     span: "normal"
   }
 ];

@@ -74,7 +74,7 @@ export default function CorporateFooter({
             <div className="lg:col-span-6">
               <div className="relative rounded-3xl overflow-hidden border border-[#FF5722]/40 shadow-2xl group">
                 <img
-                  src="/catalog/factory-hq.jpg"
+                  src="catalog/factory-hq.jpg"
                   alt="CENKAMAK Kahramanmaraş Fabrika ve Ekibi"
                   loading="lazy"
                   className="w-full h-[360px] sm:h-[420px] object-cover"
